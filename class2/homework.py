@@ -1,12 +1,12 @@
 """
 1.	請問Python有哪五種形態:
-答案:max,len,type,int,float,nun
+答案:max,len,type,int,float,none
 2.	請問使用什麼function可以顯示出形態
 答案:type
 3.	請問 a = int('1'), a的形態是什麼
-答案:字串
-4.	請問 b = str(1), b的形態是什麼
 答案:整數
+4.	請問 b = str(1), b的形態是什麼
+答案:字串
 5.	請問 c = float(1), c的形態是什麼
 答案:浮點數
 6.	請問 d = bool(1), d的形態是什麼

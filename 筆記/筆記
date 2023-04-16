@@ -1,4 +1,18 @@
-# try:
+# 在終端機輸入python可以開啟互動式執行
+# 字串'hello'、"hello"
+# 字串可以+、*
+# max() 取最大值
+# len() 取長度
+# type() 取型態
+# int() 取整數
+# float() 取浮點數
+# bool() 取布林值
+# str() 取字串
+# print("")
+# r = input("hello")
+# print(r) 在終端機顯示
+# z = input("please enter your age:") 輸入文字 提示使用者輸入文字 使用者輸入的內容都是字串
+# print(z)# try:
 #     num = int(input("請輸入一個數字"))
 #     total = num + 1
 #     print(total)
@@ -49,3 +63,30 @@
 #     print("D")
 # else:
 #     print("E")
+; math = int(input("請輸入數字:"))
+; if math % 2 != 1:
+;     print("偶數")
+; elif math % 2 == 1:
+;     print("奇數")
+# import turtle
+
+# turtle.forward(100)
+# turtle.right(90)
+#  turtle.backward(100)
+#  turtle.left(100)
+# turtle.done()
+
+# import turtle
+
+# turtle.forward(100)
+# turtle.right(90)
+# turtle.forward(100)
+# turtle.right(90)
+# turtle.forward(100)
+# turtle.right(90)
+# turtle.forward(100)
+# turtle.right(90)
+# # turtle.backward(100)
+# # turtle.right(9)
+# # turtle.left(100)
+# turtle.done()

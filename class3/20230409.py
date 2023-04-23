@@ -36,6 +36,12 @@
 # elif password == "987654321":
 #     print("歡迎.....")
 # else:
+#     print("哈哈哈哈哈哈哈哈哈哈哈,你玩不起,笑死你")d = input("請輸入密碼:")
+# if password == "123456789":
+#     print("歡迎光臨...")
+# elif password == "987654321":
+#     print("歡迎.....")
+# else:
 #     print("哈哈哈哈哈哈哈哈哈哈哈,你玩不起,笑死你")
 
 # grade = int(input("請輸入成績:"))

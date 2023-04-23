@@ -13,7 +13,7 @@
 # turtle.right(90)
 # turtle.forward(100)
 # turtle.right(90)
-# # turtle.backward(100)
+# # turtle.backward(10)
 # # turtle.right(9)
 # # turtle.left(100)
 # turtle.done()
@@ -46,12 +46,12 @@
 #     turtle.stamp()
 # turtle.done()
 
-import turtle
+# import turtle
 
-turtle.range(5)  # 線徑寬度1~10
-turtle.pencolor("green")  # 線的顏色
-turtle.forward(100)
-turtle.right(36)
-turtle.fillcolor("green")  # 區域填滿顏色
-turtle.begin_fill()  # 填滿區域設定開始
-turtle.end_fill()  # 填滿區域設定結束
+# turtle.range(5)  # 線徑寬度1~10
+# turtle.pencolor("green")  # 線的顏色
+# turtle.forward(100)
+# turtle.right(36)
+# turtle.fillcolor("green")  # 區域填滿顏色
+# turtle.begin_fill()  # 填滿區域設定開始
+# turtle.end_fill()  # 填滿區域設定結束

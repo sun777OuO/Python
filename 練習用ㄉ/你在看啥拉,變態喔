@@ -1,1 +1,8 @@
+wee = int(input("請輸入要印出的箭頭大小:"))
+wee1 = wee
+for we in range(wee):
+    wee1 -= 1
+    print(" " * wee1 + (we * 2 + 1) * "*")
 
+for we in range(wee):
+    print(" " * (wee - 1) + "*")

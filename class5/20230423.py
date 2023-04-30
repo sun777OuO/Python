@@ -29,14 +29,14 @@
 #     password = input("請重新輸入密碼")
 
 # print("密碼正確,歡迎光臨")
-x = int(input("請輸入正整數:"))
-if x == 1:
-    print(f"{x}不是質數")
-else:
-    i = 2
-    while x % i != 0 and i != x:
-        i += 1
-    if i == x:
-        print("yes")
-    else:
-        print("no")
+# x = int(input("請輸入正整數:"))
+# if x == 1:
+#     print(f"{x}不是質數")
+# else:
+#     i = 2
+#     while x % i != 0 and i != x:
+#         i += 1
+#     if i == x:
+#         print("yes")
+#     else:
+#         print("no")

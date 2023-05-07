@@ -49,12 +49,12 @@
 # random.randint(1, 10)
 # print(we)
 # awa = random.randrange(1, 101)
-# while True:
-#     wee = int(input("請輸入編號:"))
-#     if wee > awa:
-#         print("再小一點")
-#     if wee < awa:
-#         print("再大一點")
-#     if wee == awa:
-#         print("猜中了!!!!!!")
-#         break
+#     while True:
+#             wee = int(input("請輸入編號:"))
+#             if wee > awa:
+#                 print("再小一點")
+#             if wee < awa:
+#                 print("再大一點")
+#                 if wee == awa:
+#                     print("猜中了!!!!!!")
+#                 break

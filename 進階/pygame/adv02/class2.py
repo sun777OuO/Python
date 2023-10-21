@@ -41,10 +41,11 @@ tit_h = title.get_height()  # 取得文字高度
 ####################設定雪花基本參數######################
 
 ####################新增fps######################
-
+clock = pygame.time.Clock()
 ######################循環偵測######################
 paint = False
 while True:
+    clock.tick(50)  # 設定每秒fps為50
     mouse_pos = pygame.mouse.get_pos()
 
     for event in pygame.event.get():

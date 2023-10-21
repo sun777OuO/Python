@@ -59,7 +59,7 @@ tit_h = title.get_height()  # 取得文字高度
 ####################設定雪花基本參數######################
 snow_list = []
 
-for i in range(100000):
+for i in range(10):
     x_site = random.randrange(0, bg_x)  # 雪花圓心位置
     y_site = random.randrange(-bg_y, -1)  # 雪花圓心位置
     x_shift = random.randint(-1, 1)  # x 軸偏移量

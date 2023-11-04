@@ -56,7 +56,7 @@ ds_y = LIMIT_LOW
 ds_index = 0
 jumpState = False
 jumpValue = 0
-jump_height = 100
+jump_height = 13
 ######################仙人掌物件######################
 
 ######################循環偵測######################

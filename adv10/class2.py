@@ -165,6 +165,8 @@ LIMIT_LOW = 140  # 地面高度
 PTERA_LIMIT_LOW = 110  # 翼龍高度
 clock = pygame.time.Clock()
 RED = (255, 0, 0)  # 紅色
+FPS = 30
+level_up = False
 
 ####################載入圖片物件######################
 img = pygame.image.load("bg.png")  # 加載背景
@@ -214,7 +216,7 @@ gg_w = img_gg.get_width()  # 遊戲結束圖片寬度
 gg_h = img_gg.get_height()  # 遊戲結束圖片高度
 
 ######################敵人出現Queue######################
-max_enemies = 3  # 最大敵人數量，可以根據需要修改這個值，總共可以放幾個敵人在隊列中
+max_enemies = 5  # 最大敵人數量，可以根據需要修改這個值，總共可以放幾個敵人在隊列中
 enemies_queue = deque(maxlen=max_enemies)  # 使用deque來創建一個有最大長度的隊列
 active_enemies = []
 enemies_delay = 0  # 敵人出現間隔計數
@@ -222,7 +224,16 @@ enemies_delay_max = 30  # 敵人出現間隔計數最大值
 
 ######################循環偵測######################
 while True:
-    clock.tick(100)
+    clock.tick(FPS)
+    if score % 5 == 0 and score != 0 and not level_up:
+        # 每德到五分,敵人出現間格減少1, 20為最小間隔
+        enemies_delay_max = max(20, enemies_delay_max - 1)
+        if enemies_delay_max == 20:
+            # 如果敵人出現間隔已經最小,則遊戲更新畫面的時間加快
+            FPS += 20
+        level_up = True
+    elif score % 5 != 0:
+        level_up = False
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

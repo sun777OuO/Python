@@ -165,7 +165,7 @@ LIMIT_LOW = 140  # 地面高度
 PTERA_LIMIT_LOW = 110  # 翼龍高度
 clock = pygame.time.Clock()
 RED = (255, 0, 0)  # 紅色
-FPS = 30
+FPS = 50
 level_up = False
 
 ####################載入圖片物件######################
@@ -216,7 +216,7 @@ gg_w = img_gg.get_width()  # 遊戲結束圖片寬度
 gg_h = img_gg.get_height()  # 遊戲結束圖片高度
 
 ######################敵人出現Queue######################
-max_enemies = 5  # 最大敵人數量，可以根據需要修改這個值，總共可以放幾個敵人在隊列中
+max_enemies = 4  # 最大敵人數量，可以根據需要修改這個值，總共可以放幾個敵人在隊列中
 enemies_queue = deque(maxlen=max_enemies)  # 使用deque來創建一個有最大長度的隊列
 active_enemies = []
 enemies_delay = 0  # 敵人出現間隔計數

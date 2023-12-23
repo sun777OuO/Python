@@ -116,7 +116,7 @@ msl_shift = 30
 MISSILE_MAX = 10
 missiles = [Missile(0, 0, img_weapon, msl_shift) for _ in range(MISSILE_MAX)]
 msl_cooldown = 0
-msl_cooldown_max = 10
+msl_cooldown_max = 0
 ######################主程式######################
 while True:
     clock.tick(30)
